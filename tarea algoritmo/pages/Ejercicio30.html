@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Algoritmo y Lógica de Programación</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../img/logo.png" alt="Lógica de Programación" width="80">
+        </div>
+        <div class="title-container">
+            <h1>Algoritmo y Lógica de Programación</h1>
+            <h5><i>Blog dedicado a desarrollar lógica de programación aplicando el lenguaje JavaScript</i></h5>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <header>
+                <h5>Eliminar espacios: Crea un programa que permita al usuario ingresar una
+                    cadena y luego imprima todos los caracteres menos los espacios.</h5>
+            </header>
+            <form onsubmit="event.preventDefault(); eliminarEspacios();">
+                <label for="cadena">Ingrese una cadena:</label>
+                <input type="text" id="cadena" name="cadena" required>
+                <button type="submit" class="boton">Eliminar Espacios</button><br>
+                <a href="./menuejercicios.html" class="button-link" >Regresar Al Menu</a>
+                <div id="resultado">
+                    Aquí va a ir la respuesta:
+                </div>
+            </form>
+        </section>
+    </main>
+    <a class="regresar" href="../index.html">Regresar al Menu Principal</a>
+    <footer>
+        <p><h6>ChrSoft - derechos reservados...</h6></p>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
